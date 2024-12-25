@@ -1,0 +1,102 @@
+/* React datepicker */
+
+.react-datepicker-wrapper {
+    width:100%;
+}
+.react-datepicker-popper {
+    z-index:100!important;
+}
+
+.react-datepicker__input-container {
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+}
+.react-datepicker__input-container input {
+    width:100%;
+    height: 100%;
+    margin-left: 6px;
+}
+.react-datepicker__input-container input:focus {
+    outline: 0;
+}
+
+.react-datepicker__header {
+    text-align: center;
+    background-color: transparent!important;
+    border-bottom: 1px solid #aeaeae;
+    border-top-left-radius: 0.3rem;
+    padding: 8px 0;
+    position: relative;
+}
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    color: #000000d5!important;
+    margin-bottom: 0.3rem;
+}
+.react-datepicker__year-select, .react-datepicker__month-select{
+    padding: 0 4px;
+}
+.react-datepicker__year-dropdown-container--select, .react-datepicker__month-dropdown-container--select {
+    border:0.7px solid #e2e8f0;
+}
+.react-datepicker__navigation-icon::before {
+    border-width: 2px 2px 0 0!important;
+    top: 10px!important;
+}
+.react-datepicker__year-select::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .react-datepicker__year-select::-webkit-scrollbar-thumb {
+    background-color: #00112c79;
+    border-radius: 6px;
+  }
+ .react-datepicker__year-text {
+    padding: 6px 10px;
+    width: 5rem!important;
+    font-family: "Nunito", sans-serif;
+}
+  
+  .react-datepicker__year-select::-webkit-scrollbar-track {
+    background-color: #beb9b965;
+  }
+
+  /* React Datepicker end */
+
+  /* React-Toastify */
+  .Toastify__toast-container {
+    width: auto!important;
+    min-width:320px;
+    max-width: 50%;
+}
+
+
+
+.slick-next:before, .slick-prev:before {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    opacity: .90;
+    color: #3843D0!important;
+}
+
+
+/* React Select */
+.css-13cymwt-control, .css-30r1yo-control {
+min-height: 50px!important;
+}
+.css-t3ipsp-control, .css-1phn1ih-control {
+    min-height: 50px!important;
+
+}
+.css-1p3m7a8-multiValue {
+    background-color: #3843D0!important;
+    color: #ffffff!important;
+    border-radius: 9px!important;
+
+}
+.css-1y7rh0y-MultiValueGeneric2 {
+    color: #ffffff!important;  
+    border-radius: 9px!important;
+}
+ 

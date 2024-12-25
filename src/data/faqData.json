@@ -1,0 +1,50 @@
+[
+    {
+      "category": "General",
+      "questions": [
+        {
+          "title": "How does YourPal work?",
+          "content": "Our AI-powered platform uses specialized algorithms to provide each student about their lorem ipsum dolor sit amet. Our software encourages their strengths and helps them overcome challenges without feeling stressed or overwhelmed."
+        },
+        {
+          "title": "What makes YourPal different from all the other AI-powered CV-solution platforms?",
+          "content": "No other platform currently offers unlimited access to customized. In addition, we provide a range of edge-cutting features."
+        }
+      ]
+    },
+    {
+      "category": "Subscription",
+      "questions": [
+        {
+          "title": "What do I need to create an account?",
+          "content": "Creating an account is simple:\n\n Select your subscription. Simply provide basic information about yourself. From there, you’ll be asked to verify your email, and voila! You're one step closer to making friends with learning.\n\n"
+        },
+        {
+          "title": "How long is the free trial?",
+          "content": "We currently offer a 14-day free trial so that you can experience the iBloom effect for yourself! Once your free trial is up, you will be prompted to select a subscription tier to continue using the platform. Please note that you will only be charged automatically at the end of the trial if “auto charge” is enabled upon signup."
+        },
+        {
+          "title": "Can I cancel my subscription at any time?",
+          "content": "Absolutely! You can cancel your subscription at any time. However, we don’t offer refunds at the moment because of the introductory free trial and incredibly low prices we offer."
+        }
+      ]
+    },
+    {
+      "category": "YourPal Extension",
+      "questions": [
+        {
+          "title": "Question about Extension?",
+          "content": "Creating an account is simple:\n\nFor Parents: Select your subscription. Simply provide you and your child’s information, along with your child’s grade and skill level. If you’re unsure about their skill level, don’t worry; our AI-powered learning platform will figure it out quickly enough! From there, you’ll be asked to verify your email, and voila! Your child is one step closer to making friends with learning.\n\nFor Teachers: Select your subscription. To start, you’ll have to provide some basic information about yourself and your educational capacity. Then, you can add your students by sending a consent request to their parents. With parent approval, your students will get an invite to create their accounts so that you can start sending them customized worksheets and lesson plans."
+        },
+        {
+          "title": "How long is the free trial?",
+          "content": "We currently offer a 14-day free trial so that you can experience the iBloom effect for yourself! Once your free trial is up, you will be prompted to select a subscription tier to continue using the platform. Please note that you will only be charged automatically at the end of the trial if “auto charge” is enabled upon signup."
+        },
+        {
+          "title": "Can I cancel my subscription at any time?",
+          "content": "Absolutely! You can cancel your subscription at any time. However, we don’t offer refunds at the moment because of the introductory free trial and incredibly low prices we offer."
+        }
+      ]
+    }
+  ]
+  

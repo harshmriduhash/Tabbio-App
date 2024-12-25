@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #F9fafb;
+  scroll-behavior: smooth!important;
+
+}
+
+.wmde-markdown pre {
+  background-color: transparent!important;
+}
+
+@keyframes react-loading-skeleton {
+  100% {
+      transform: translateX(100%);
+  }
+}
+/* box-shadow: 0px 4px 6px -4px #0000001A;
+
+box-shadow: 0px 10px 15px -3px #0000001A; */
+
+
+
+
+.button-wrapper {
+  position: relative;
+}
+.border-gradient {
+  border: 3px solid;
+  border-image-source: linear-gradient(125.5deg, #60BEE2 15.51%, #5E4D84 27.16%, #C05B95 38.82%, #8559AD 50.48%, #DCAF72 62.13%, #BE5AB6 73.79%, #8FC2DA 85.31%);
+  
+  
+}
+
+.text-gradient {
+  background: linear-gradient(114.91deg, #60BEE2 4.6%, #5E4D84 18.1%, #C05B95 31.6%, #8559AD 45.11%, #DCAF72 58.61%, #BE5AB6 72.11%, #8FC2DA 85.45%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-flex;
+}
+.text-gradient:hover {
+  background: none;
+  background-clip: none;
+  -webkit-background-clip: none;
+  -webkit-text-fill-color: #fff;
+  display: flex;
+  color: #fff;
+}
+
+.button-bg {
+  /* padding: 3px 4px; */
+  background: linear-gradient(125.5deg, #60BEE2 15.51%, #5E4D84 27.16%, #C05B95 38.82%, #8559AD 50.48%, #DCAF72 62.13%, #BE5AB6 73.79%, #8FC2DA 85.31%);
+  background-size: 600% 600%;
+  /* border-radius: 50px; */
+  animation: AnimateBorder 16s ease infinite;
+  -webkit-animation: AnimateBorder 16s ease infinite;
+  -moz-animation: AnimateBorder 16s ease infinite;
+  z-index: -1;
+}
+
+
+
+
+@-webkit-keyframes AnimateBorder {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimateBorder {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimateBorder {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.react-loading-skeleton {
+  --base-color: #ebebeb;
+  --highlight-color: #f5f5f5;
+  --animation-duration: 1.5s;
+  --animation-direction: normal;
+
+  background-color: var(--base-color);
+
+  width: 100%;
+  border-radius: 0.25rem;
+  display: inline-flex;
+  line-height: 1;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.react-loading-skeleton::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      90deg,
+      var(--base-color),
+      var(--highlight-color),
+      var(--base-color)
+  );
+  transform: translateX(-100%);
+
+  animation-name: react-loading-skeleton;
+  animation-direction: var(--animation-direction);
+  animation-duration: var(--animation-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #d9d9d9ef;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #D9D9D9;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+/* For Firefox */
+.custom-scrollbar::-moz-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-moz-scrollbar-thumb {
+  background-color: #d9d9d9ef !important;
+  border-radius: 5px;
+}
+
+.custom-scrollbar::-moz-scrollbar-thumb:hover {
+  background-color: #d9d9d9;
+}
+.custom-scrollbar::-moz-scrollbar-track {
+  background-color: transparent !important;
+}

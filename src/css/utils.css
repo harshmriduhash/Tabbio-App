@@ -1,0 +1,48 @@
+.dc-loader-main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999999;
+}
+
+.dc-loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #04131c;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+.component-loader {
+    animation: spin 2s linear infinite;  
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dc-loader-white {
+    background-color: #ffffff !important;
+}
+
+.date_picker {
+    background-color: #eff4fa;
+    width: 100%;
+    height: 50px;
+    border-radius: 0.25rem;
+    display: block;
+}

@@ -1,0 +1,40 @@
+.connector {
+    left: calc(-50% + 25px);
+    right: calc(50% + 15px);
+}
+
+.sliding-cards {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  
+  .card-container {
+    position: relative;
+    width: 100%; /* Ensure container occupies full width */
+  }
+  
+  .card {
+    background-color: #837d7d;
+    border-radius: 1.6rem;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.521);
+    flex: 0 1 auto;
+    height: 400px;
+    color: #fff;
+    overflow: hidden;
+    padding: 1.5rem 2rem;
+    text-align: left;
+    /* width: 400px; */
+    max-width: 56.2rem;
+    --translate-x: 0;
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .card:not(:first-child) {
+    margin-left: -10%;
+    z-index: 3; /* Initial space between cards */
+  }
+  
+  .card:hover + .card {
+    transform: translateX(22%); /* Shift the card to the right when hovered */
+  }
